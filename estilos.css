@@ -1,0 +1,118 @@
+@font-face{
+  font-family: "Frauces"
+  src: url(../fonts/Frauces.ttf);  
+}
+@font-face{
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf); 
+}
+*{
+  box-sizing: border-box
+}
+body{  
+margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:"Frauces";
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container--flex{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header{
+  padding: 10px;
+}
+.main-title{
+  color: black;
+}
+.color-span{
+  color: #EEAD33;
+}
+.icon-menu{
+  front-size: 1.5em;
+  color: #EEAD33;
+  border: 1px solid white;
+  display: block;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.menu{
+  display: none;
+}
+.banner {
+  background: url(../img/img_20211024_175455.jpg);
+  min_height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  widht: 100%;
+  z-index: -999;
+}
+.banner:before {
+  content: "";
+  widht: 100%;
+  min-height: 400px;
+  background: rgba(0,0,0,0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner__content{
+  width: 90%;
+  padding: 15px;
+  position: absolute;
+  top: 60%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  font-size: 1.3em;
+}
+.main{
+  margin-top: 350px;
+  padding: 15px;
+}
+.USOS Y EFECTIVIDAD{
+  text-align:center;
+  padding: 20px 0;
+}
+.USOS Y EFECTIVIDAD__title{
+  font-size: 2em;
+  position: relative; 
+}
+.USOS Y EFECTIVIDAD__title:before {
+  content:""
+  width: 30%;
+  position: absolute;
+  top: -10px;
+  left: 35%
+  height: 3px;
+  background: #EEAD33;
+
+}
+.USOS Y EFECTIVIDAD__txt{
+  font-size: 1.3em;
+  color: #777;
+}
+.USOS Y EFECTIVIDAD__btn{
+  display: block;
+  border: 2px solid #EEAD33;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+  color: #EEAD33;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+.USOS Y EFECTIVIDAD__btn:hover {
+  background: #EEAD33;
+  color: rose;
+}
+
